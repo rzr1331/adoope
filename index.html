@@ -159,6 +159,27 @@
 		color: #666666;
 		font-size: 0.8rem
 		}
+		.mistay-img{
+		    height: 58px;
+			width: 150px;
+			display: inline-block;
+			background-image: url(img/mistay-bw.png);
+			background-size: cover;
+			cursor: pointer;
+		}
+		.mistay-img:hover {
+		background-image: url('img/mistay.png');
+		}
+		.highwaycookie-img{
+		    height: 58px;
+			width: 150px;
+			display: inline-block;
+			background-image: url(img/highwaycookie-bw.png);
+			background-size: cover;
+		}
+		.highwaycookie-img:hover {
+		background-image: url('img/highwaycookie.png');
+		}
     </style>
     <script src="particles.min.js"></script>
 </head>
@@ -170,7 +191,8 @@
         <div class="separator"></div>
         <div id="portfolio">
             <h3 id="portfolioHead">PORTFOLIO</h3>
-            <p><a href="http://www.mistay.in/" target="_blank"><img src="img/mistay.png" height="50px" width="150px"></a> <a href="https://highwaycookie.com/" target="_blank"><img src="img/highwaycookie.png" height="50px" width="150px"></a></p>
+            <a href="http://www.mistay.in/" target="_blank"><div class="mistay-img"></div></a> 
+            <a href="https://highwaycookie.com/" target="_blank"><div class="highwaycookie-img"></div></a>
         </div>
         <div class="separator"></div>
         <div id="team">
